@@ -7,7 +7,7 @@ public class App {
 
         //Linked List
         
-        LinkedList<String> cars = new LinkedList<String>();
+        LinkedList<String> words = new LinkedList<String>();
 
         Scanner scan = new Scanner(System.in);
 
@@ -15,7 +15,7 @@ public class App {
 
         for(int i = 0; i < 5; i++)
         {
-            System.out.println("Enter your name");
+            System.out.println("Enter your word");
             word = scan.nextLine();
             while(word.isBlank())
             {
@@ -25,9 +25,7 @@ public class App {
             cars.add(word);
         }
 
-        System.out.println(cars);
+        System.out.println(words);
         
-
-
     }
 }
