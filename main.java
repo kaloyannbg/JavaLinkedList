@@ -1,3 +1,4 @@
+package MyTestJavaProject;
 
 import java.util.LinkedList;
 import java.util.Scanner;
@@ -6,7 +7,7 @@ public class App {
     public static void main(String[] args) {
 
         //Linked List
-        
+
         LinkedList<String> words = new LinkedList<String>();
 
         Scanner scan = new Scanner(System.in);
@@ -22,10 +23,9 @@ public class App {
                 word = scan.nextLine();
             }
             word.trim();
-            cars.add(word);
+            words.add(word);
         }
 
         System.out.println(words);
-        
     }
 }
